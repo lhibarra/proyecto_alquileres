@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuscAlquiler: Tu buscador de alquileres</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="logo_marca" src="/static/images/Logo Moderno Arquitectura Marron Moderno.png">
+      </div>
+    </header>
+    <main>
+      <table>
+        <thead cellpadding="1.0" cellspacing="1.0">
+          <tr>
+            <th>Total de alquileres</th>            
+            <th>En pesos</th>            
+            <th>En dolares</th>               
+          </tr>
+          {% for row in data %}
+          <tr>
+            <td>{{row['total']}}</td>
+            <td>{{row['pesos']}}</td>
+            <td>{{row['dolar']}}</td>    
+          </tr>
+          {% endfor %}
+        </thead>
+      </table>
+    <br>
+      <form action="{{url_for('index')}}">
+        <input id="inicio" class="boton_personalizado" type="submit" value="Inicio"/>
+    </main>
+  </body>
+  <footer>Leandro Hernan Ibarra - <img class="logo" src="/static/images/25231.png"> /lhibarra </footer>
+</html>
