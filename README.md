@@ -30,4 +30,6 @@ En el siguiente enlace se puede ver el funcionamiento de la aplicación sin la n
 
 
 ## _Programado con Python_
-### Versión 1.0
+### Versión 1.0 📌
+## Autor 🖋️
+**Leandro Hernán Ibarra**
