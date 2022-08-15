@@ -2,3 +2,5 @@
 **_Proyecto Final_** - _Programador Python_
 
 ![logo](/images/Logo.png)
+
+** Objetivo Principal: **
