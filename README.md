@@ -1,4 +1,4 @@
 # **BuscAlquiler**
 **_Proyecto Final_** - _Programador Python_
 
-![sistema](/images/Diagrama.jpg)
+![logo](/static/images/Logo Moderno Arquitectura Marron Moderno.png)
