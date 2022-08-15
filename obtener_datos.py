@@ -70,15 +70,14 @@ def seleccionar_datos(lista_datos, moneda,minimo,maximo):
         for k,v in d['attributes'][3].items():
                 if k == "value_name" and v.isdigit():
                     print(f'cantidad de ambientes: {v}')
-'''     
+   
 if __name__ == '__main__':
    
-    lista_provincia = fetch("gdfgdfh")
-    x = seleccionar_datos(lista_provincia,"ARS",7000,10000)
-     
+    lista_provincia = fetch("Cordoba")
+    x = seleccionar_datos(lista_provincia,"USD",10,50000)
     print(x)
     #n = cant_tipo_moneda(lista_provincia)
     #print(n)
-  
+ ''' 
   
        
