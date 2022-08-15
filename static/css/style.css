@@ -62,7 +62,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 7cm;
-    height: 7cm;
+    height: 8cm;
     top: 200px;
     position: relative;
   }
@@ -76,6 +76,7 @@ body {
     background-color: rgb(250, 250, 115);
     border: 2px solid rgb(245, 113, 77);
     cursor: pointer;
+    width: 3cm;
   }
 
   .select {
@@ -91,7 +92,7 @@ body {
   }
 
   #buscar {
-    height: 3cm;
+    height: 4cm;
   }
 
   #resultado {
@@ -124,4 +125,8 @@ body {
   #inicio {
     left: 525px;
     top: 20px;
+  }
+
+  #inicio-form {
+    bottom: 0px;
   }
