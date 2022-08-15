@@ -12,4 +12,21 @@ El objetivo de la aplicación es facilitar la búsqueda de Departamentos para al
 
 Al iniciar la aplicación permite elegir la forma de buscar, en base a las necesidades del consumidor.
 
-![inicio](/images/index.jpeg)
+![inicio](/images/index.jpg)
+
+El usuario ingresa al menu y le permite rastrear por provincia, tipo de moneda y rango de precios que desee. 
+
+![busqueda](/images/botones.jpg)
+
+El sistema devuelve una lista con los resultados encontrados de acuerdo a los tips ingresados.
+
+![resultados](/images/tabla.jpg)
+
+También se pueden consultar las provincias más buscadas.
+
+![grafico](/images/grafico.jpg)
+
+En el siguiente enlace se puede ver el funcionamiento de la aplicación sin la necesidad de instalar nada:
+
+
+#_Programado con Python_
