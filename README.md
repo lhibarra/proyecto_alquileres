@@ -29,4 +29,5 @@ También se pueden consultar las provincias más buscadas.
 En el siguiente enlace se puede ver el funcionamiento de la aplicación sin la necesidad de instalar nada:
 
 
-#_Programado con Python_
+## _Programado con Python_
+### Versión 1.0
